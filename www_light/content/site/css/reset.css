@@ -1,0 +1,210 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, hr, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button, input[type="text"], input[type="password"], textarea, select {
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+button, input[type="submit"] {
+    cursor: pointer;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    line-height: normal;
+    min-width: 300px;
+    width: 100%;
+}
+:focus {
+    outline: medium none;
+}
+blockquote, q {
+    quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+th, td {
+    vertical-align: top;
+}
+address, cite {
+    font-style: normal;
+}
+ol, ul, menu {
+    list-style: none outside none;
+}
+b, strong {
+    font-weight: bold;
+}
+i, em {
+    font-style: italic;
+}
+sup, sub {
+    font-size: 0.58em;
+    position: relative;
+}
+sup {
+    top: -0.6em;
+}
+sub {
+    top: 0.6em;
+}
+a, button {
+    cursor: pointer;
+}
+textarea {
+    overflow: auto;
+    resize: none;
+}
+input[type="file"] {
+    margin: 0;
+}
+select {
+    border: 1px solid;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 3px 3px 3px 0;
+    position: relative;
+    top: -0.2em;
+    vertical-align: text-top;
+}
+big {
+    font-size: larger;
+}
+small {
+    font-size: smaller;
+}
+* + html img {
+}
+button::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+article, aside, figcaption, figure, footer, header, hgroup, mark, nav, section, time {
+    display: block;
+}
+ul.st-clear {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+ul.st-clear > li {
+    background: none repeat scroll 0 0 transparent;
+    margin: 0;
+    padding: 0;
+}
+.debug {
+    background-color: rgba(255, 200, 200, 0.3) !important;
+}
+.heading {
+    display: block;
+}
+.x-text {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+.ie7 .x-text {
+    display: inline;
+}
+.x-text input {
+    background: url("/img/transparent.png") repeat scroll 0 0 transparent;
+    display: block;
+    line-height: normal;
+    position: relative;
+    width: 100%;
+}
+.x-text input.ph {
+    position: absolute;
+    width: auto;
+    z-index: -1;
+}
+.x-text .bg {
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+}
+.x-text .bg.l {
+    background-position: 0 0;
+    left: 0;
+    right: 20px;
+}
+.x-text .bg.r {
+    background-position: 100% 0;
+    right: 0;
+    width: 20px;
+}
+.x-button {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+}
+.ie7 .x-button {
+    display: inline;
+}
+.x-button .title {
+    position: relative;
+    text-align: center;
+}
+.x-button .bg {
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+}
+.x-button .bg.l {
+    background-position: 0 0;
+    left: 0;
+    right: 20px;
+}
+.x-button .bg.r {
+    background-position: 100% 0;
+    right: 0;
+    width: 20px;
+}
+.x-button:hover .bg.l {
+    background-position: 0 100%;
+    left: 0;
+    right: 20px;
+}
+.x-button:hover .bg.r {
+    background-position: 100% 100%;
+    right: 0;
+    width: 20px;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+}
